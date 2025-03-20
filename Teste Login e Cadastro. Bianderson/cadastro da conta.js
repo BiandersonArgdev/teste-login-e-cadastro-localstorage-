@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Recupera usuários salvos ou cria um array vazio
         const usuariosCadastrados = JSON.parse(localStorage.getItem("usuarios")) || [];
 
-        // Verifica se o e-mail já existe
+        // Verifica se o e-mail já existe se n achar retorna uma mensagem 
         const emailJaExiste = usuariosCadastrados.some(usuario => usuario.email === email);
 
         if (emailJaExiste) {
