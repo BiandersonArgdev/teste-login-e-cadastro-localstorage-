@@ -1,4 +1,4 @@
-/*Estilizando o body do html*/
+/*body*/
 body{
     font-family: Arial, sans-serif;
     text-align: center;
@@ -22,7 +22,7 @@ header{
           padding: 20px;
 }
 
-/*Cada Produto*/
+/*Produtoss*/
 .produto{
          background: white;
          padding: 15px;
